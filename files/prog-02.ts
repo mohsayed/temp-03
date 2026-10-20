@@ -1,17 +1,5 @@
-// Define the shape of a note
-interface Note {
-  title: string;
-  content: string;
-  isPinned: boolean;
-}
 
-// Type the array using the Note interface
-const notes: Note[] = [
-  { title: 'Meeting Notes', content: 'Discuss project roadmap', isPinned: true },
-  { title: 'Grocery List', content: 'Buy milk, eggs, bread', isPinned: false },
-  { title: 'Workout Plan', content: 'Push day: Bench, Shoulder Press', isPinned: false },
-  { title: 'Recipe Ideas', content: 'Pasta, Salad, Tacos', isPinned: false },
-];
+import {notes} from './prog-01.ts'
 
 
 

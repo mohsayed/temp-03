@@ -1,3 +1,5 @@
+export {notes};
+
 // Define the shape of a note
 interface Note {
   title: string;
